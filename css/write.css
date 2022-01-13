@@ -1,0 +1,18 @@
+body {
+  min-height: 2000px;
+}
+.tes {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#myimg {
+  width: 350px;
+  height: 150px;
+  padding: 0;
+  cursor: pointer;
+}
+
+#note {
+  background-color: white;
+}

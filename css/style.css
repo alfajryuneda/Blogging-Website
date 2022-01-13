@@ -1,0 +1,181 @@
+.card {
+  padding: 0;
+}
+
+.card:hover {
+  box-shadow: 2px 3px 7px #82e0aa;
+  /* box-shadow: 2px 3px 7px rgb(128, 170, 168); */
+  transition: 0.5s;
+}
+
+.card img {
+  height: 50px;
+  width: 70px;
+  margin-top: 10px;
+  /* width: 170px; */
+}
+
+.card-text {
+  /* height: 24px; */
+  /* height: 75px; */
+  max-height: 64px;
+  overflow: hidden;
+}
+
+.postContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.filterPost ul {
+  display: flex;
+  justify-content: center;
+}
+
+.filterPost ul li {
+  list-style: none;
+  /* background: #56b48c; */
+  background: white;
+  border: 1px solid #56b48c;
+  margin: 5px 15px;
+  padding: 5px 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.filterPost ul li:hover {
+  color: white;
+  background: #56b48c;
+}
+.filterPost ul li.activee {
+  color: white;
+  /* color: #56b48c; */
+  /* background: hsl((((155, 13%, 55%), 6%, 66%) 6%, 66%), 6%, 66%); */
+  background: #56b48c;
+}
+
+#alpat {
+  overflow: hidden;
+}
+
+.tanggal {
+  margin-left: 3px;
+  margin-bottom: 8px;
+  margin-top: -10px;
+  color: rgb(120, 125, 129);
+  font-weight: 400;
+}
+
+.myImg {
+  width: 270px;
+  height: 145px;
+}
+
+.kat {
+  width: 40px;
+  height: 40px;
+}
+
+.kat_html {
+  background-color: #eb984e;
+  width: 55px;
+  height: 30px;
+  font-size: 13px;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.kat_css {
+  background-color: #85c1e9;
+  width: 55px;
+  height: 30px;
+  font-size: 13px;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.kat_javascript {
+  background-color: #f4d03f;
+  width: 65px;
+  height: 30px;
+  font-size: 13px;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card_info span {
+  margin-top: 0;
+}
+
+.card-body {
+  /* min-height: 100px; */
+  max-height: 90px;
+}
+
+/* @media screen and (max-width: 580px) {
+  .tanggal {
+    margin-left: 200px;
+  }
+} */
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.container_img {
+  background-image: url("img/hero_bg.jpg");
+}
+.container_img img {
+  height: 590px;
+  width: 100%;
+}
+
+.hero-image {
+  /* background: url("/UAS_Kelompok_5/img/hero_bg.jpg"); */
+  background-image: url("../img/Banner.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* opacity: 50%; */
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text h1 {
+  color: white;
+}
+
+.hero-text a {
+  text-decoration: none;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 0%;
+}
